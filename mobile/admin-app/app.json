@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "H&I Admin",
+    "slug": "hi-admin-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#059669"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hardwareinterior.admin"
+    },
+    "android": {
+      "package": "com.hardwareinterior.admin",
+      "adaptiveIcon": {
+        "backgroundColor": "#059669"
+      }
+    },
+    "extra": {
+      "apiBaseUrl": "https://YOUR-BACKEND.up.railway.app/v1"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Hardware & Interior",
+    "slug": "hi-customer-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#10b981"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hardwareinterior.customer"
+    },
+    "android": {
+      "package": "com.hardwareinterior.customer",
+      "adaptiveIcon": {
+        "backgroundColor": "#10b981"
+      }
+    },
+    "extra": {
+      "apiBaseUrl": "https://YOUR-BACKEND.up.railway.app/v1"
+    }
+  }
+}
