@@ -104,7 +104,6 @@
   "author": "HtmlLover",
   "license": "Regular",
   "devDependencies": {
-    "@rollup/rollup-darwin-x64": "^4.61.1",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.3.4",
